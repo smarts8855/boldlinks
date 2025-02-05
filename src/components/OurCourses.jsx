@@ -59,7 +59,7 @@ const OurCourses = () => {
     <div className="container mx-auto py-12">
       {/* Heading */}
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-        Programming courses
+        COURSES
       </h2>
 
       <motion.div

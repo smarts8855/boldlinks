@@ -1,13 +1,10 @@
-// import Button from "./components/Button";
-
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 
-import HourTeam from "./components/HourTeam";
+import Testimonies from "./components/Testimonies";
 import OurCourses from "./components/OurCourses";
-// import Pricing from "./components/Pricing";
-import Services from "./components/services";
-// import Header from "./components/Header";
+
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -17,7 +14,7 @@ function App() {
       <Services />
       <OurCourses />
       {/* <Pricing /> */}
-      <HourTeam />
+      <Testimonies />
       {/* 
       {btns.map((btn, index) => (
         <Button key={index} name={btn} />
