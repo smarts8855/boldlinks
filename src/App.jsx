@@ -3,15 +3,15 @@ import Hero from "./components/Hero";
 
 import Testimonies from "./components/Testimonies";
 import OurCourses from "./components/OurCourses";
-
-import Services from "./components/Services";
+import Service from "./components/Service";
 
 function App() {
   return (
     <div>
       {/* <Header /> */}
       <Hero />
-      <Services />
+      <Service />
+      {/* <Services /> */}
       <OurCourses />
       {/* <Pricing /> */}
       <Testimonies />
